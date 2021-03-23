@@ -108,7 +108,7 @@ h1 {
     margin-top: .5rem;
     font-size: var(--font-sizes-sans-small);
     font-weight: 600;
-    color: var(--clr-One);
+    color: var(--clr-Five);
     text-decoration: none;
     opacity: .5;
 }
@@ -127,3 +127,33 @@ h1 {
 .login__buttom:hover {
     background-color: var(--clr-Five);
 }
+.login__account, .login__signin, .login__signUp {
+  font-weight: 600;
+  font-size: var(--font-sizes-sans-small);
+}
+.login__account {
+    color: var(--clr-Black);
+}
+.login__signin, .login__signUp {
+    color: var(--clr-Five);
+    cursor: pointer;
+    margin-left: .5rem;
+}
+.login__social {
+    margin-top: 2rem;
+}
+.login__social-icon {
+    font-size: 1.5rem;
+    color: var(--clr-One);
+    margin: 0 1.5rem;
+}
+
+/*Show login*/
+.block{
+    display: block;
+  }
+  
+  /*Hidden login*/
+  .none{
+    display: none;
+  }

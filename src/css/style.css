@@ -99,5 +99,31 @@ h1 {
 .login__input::placeholder {
     color: lightgray;
     font-size: var(--font-sizes-sans-normal);
-    
+
+}
+.login__forgot {
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-top: .5rem;
+    font-size: var(--font-sizes-sans-small);
+    font-weight: 600;
+    color: var(--clr-One);
+    text-decoration: none;
+    opacity: .5;
+}
+.login__buttom {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    color: var(--Clr-Base);
+    font-weight: 600;
+    text-align: center;
+    border-radius: .5rem;
+    background-color: var(--clr-One);
+    margin: 2rem 0;
+    transition: .3s;
+}
+.login__buttom:hover {
+    background-color: var(--clr-Five);
 }

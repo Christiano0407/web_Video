@@ -50,6 +50,15 @@ Web Video is a platform for seeing digital content.
 - 1240px
 - 1400px
 
+## Images
+[Unsplash](https://unsplash.com/)
+[Tinypng](https://tinypng.com/)
+## Icons:
+[FonstAwesome](https://fontawesome.com/icons?d=gallery&p=2)
+
+## CDN
+[CDN](https://cdnjs.com/)
+
 ## Tips:
 - Posicionamiento.
 - Modelo de caja (Box-model).

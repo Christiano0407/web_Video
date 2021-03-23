@@ -11,6 +11,8 @@ Web Video is a platform for seeing digital content.
 ## References 
 [Teffcode](https://linktr.ee/teffcode)
 
+[FalconMaster](https://www.youtube.com/watch?v=uDqW8bCFhps)
+
 # Fonts
 [Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text_type=custom)
 
@@ -24,6 +26,29 @@ Web Video is a platform for seeing digital content.
 - --clr-Five: #D92B2B;
 - --Clr-Base: #ffffff;
 - --clr-Black: #000000;
+
+# MediaQueries: 
+## Min-Width: 
+- 360px
+- 480px 
+- 48em 
+- 816px
+- 64em 
+- 1087px
+- 1130px
+
+
+## Max-width:
+- 320px 
+- 435px
+- 480px 
+- 500px 
+- 760px
+- 900px 
+- 1020px
+- 1100px 
+- 1240px
+- 1400px
 
 ## Tips:
 - Posicionamiento.

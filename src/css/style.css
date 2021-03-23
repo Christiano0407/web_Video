@@ -1,3 +1,16 @@
+:root {
+ --clr-One: #010326;
+ --clr-Two: #29F2CD;
+ --clr-Three: #A9D941;
+ --clr-Four: #F26E22;
+ --clr-Five: #D92B2B;
+ --Clr-Base: #ffffff;
+ --clr-Black: #000000;
+
+ --font-sizes-sans-small: 1.2rem;
+ --font-sizes-sans-normal: 1.6rem;
+ --fonts-sizes-sans-large: 2.4rem;
+}
 * {
    padding: 0;
    margin: 0;
@@ -7,4 +20,8 @@
 html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
 }

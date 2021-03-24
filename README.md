@@ -31,10 +31,12 @@ Web Video is a platform for seeing digital content.
 ## Min-Width: 
 - 360px
 - 480px 
+- 576px
 - 48em 
 - 816px
 - 64em 
 - 1087px
+- 1024px
 - 1130px
 
 

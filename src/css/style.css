@@ -29,127 +29,155 @@ body {
     height: 100vh;
     /* overflow: hidden;
     flex-wrap: wrap; */
-    background-color: var(--clr-One);
+    background-color: var(--Clr-Base);
     color: var(--Clr-Base);
 }
-img {
-    background-position: center;
-    object-fit: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-h1 {
+h1{
     margin: 0;
-}
-/*Login*/
-.login {
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /*===== LOGIN =====*/
+  .login{
     display: grid;
     grid-template-columns: 100%;
-    height: 100%;
+    height: 100vh;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-}
-.login__content {
+  }
+  
+  .login__content{
     display: grid;
-}
-.login__img {
+  }
+  
+  .login__img{
     justify-self: center;
-}
-.login__img img {
-    width: 310px;
+    height: 350px;
+  }
+  
+  .login__img img{
+    width: 325px;
     margin-top: 1.5rem;
     object-fit: cover;
-}
-.login__forms {
+  }
+  
+  .login__forms{
     position: relative;
-    height: 368px;
-}
-.login__registre, .login__create {
-    width: 100%;
+    height: 400px;
+  }
+  
+  .login__registre, .login__create{
     position: absolute;
     bottom: 1rem;
+    width: 100%;
+    height: 100%;
     background-color: var(--clr-Two);
     padding: 2rem 1rem;
     border-radius: 1rem;
     text-align: center;
-    box-shadow: 0 8px 20px rgba(35, 0, 77, .2);
-    animation-duration:.4s;
+    box-shadow: 0 8px 20px rgba(35,0,77,.2);
+    animation-duration: .4s;
     animation-name: animate-login;
-}
-.login__title {
+  }
+  
+  .login__title{
     font-size: var(--fonts-sizes-sans-large);
     margin-bottom: 2rem;
-    font-weight: bold;
-}
-.login__box {
-    margin-top: 1rem;
+  }
+  
+  .login__box{
     display: grid;
     grid-template-columns: max-content 1fr;
-    gap: .5rem;
+    column-gap: .5rem;
     padding: 1.125rem 1rem;
-    background-color: var(--Clr-Base);
+    background-color: #FFF;
+    margin-top: 1rem;
     border-radius: .5rem;
-}
-.login__input {
+  }
+  
+  .login__icon{
+    font-size: 1.5rem;
+    color: var(--clr-Two);
+  }
+  
+  .login__input{
     border: none;
     outline: none;
     font-size: var(--font-sizes-sans-normal);
+    font-weight: 700;
     color: var(--clr-Black);
-}
-.login__input::placeholder {
-    color: lightgray;
+  }
+  
+  .login__input::placeholder{
     font-size: var(--font-sizes-sans-normal);
-
-}
-.login__forgot {
+    font-family: var(--font-sizes-sans-small);
+    color: var(--clr-One);
+  }
+  
+  .login__forgot{
     display: block;
     width: max-content;
     margin-left: auto;
     margin-top: .5rem;
     font-size: var(--font-sizes-sans-small);
     font-weight: 600;
-    color: var(--clr-Five);
-    text-decoration: none;
-    opacity: .5;
-}
-.login__buttom {
-    text-decoration: none;
+    color: var(--Clr-Base);
+    opacity: .7;
+  }
+  
+  .login__button{
     display: block;
     padding: 1rem;
-    color: var(--Clr-Base);
+    margin: 2rem 0;
+    background-color: var(--clr-Black);
+    color: #FFF;
     font-weight: 600;
     text-align: center;
     border-radius: .5rem;
-    background-color: var(--clr-One);
-    margin: 2rem 0;
     transition: .3s;
-}
-.login__buttom:hover {
-    background-color: var(--clr-Five);
-}
-.login__account, .login__signin, .login__signUp {
-  font-weight: 600;
-  font-size: var(--font-sizes-sans-small);
-}
-.login__account {
-    color: var(--clr-Black);
-}
-.login__signin, .login__signUp {
-    color: var(--clr-Five);
+  }
+  
+  .login__button:hover{
+    background-color: var(--clr-One);
+    opacity: .5;
+  }
+  
+  .login__account, .login__signin, .login__signup{
+    font-weight: 600;
+    font-size: var(--font-sizes-sans-small);
+  }
+  
+  .login__account{
+    color: var(--clr-One);
+  }
+  
+  .login__signin, .login__signup{
+    color: var(--Clr-Base);
     cursor: pointer;
     margin-left: .5rem;
-}
-.login__social {
+  }
+  
+  .login__social{
     margin-top: 2rem;
-}
-.login__social-icon {
+  }
+  
+  .login__social-icon{
     font-size: 1.5rem;
-    color: var(--clr-One);
+    color: var(--Clr-Base);
     margin: 0 1.5rem;
-}
-
-/*Show login*/
-.block{
+  }
+  
+  /*Show login*/
+  .block{
     display: block;
   }
   

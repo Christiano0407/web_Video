@@ -24,9 +24,117 @@
        font-size: 62.5%;
        font-family: 'Montserrat', sans-serif;
    }
+   a {
+       text-decoration: none;
+   }
+   ul {
+       list-style: none;
+   }
+   img {
+       background-size: cover;
+       background-position: center;
+       background-position: center;
+   }
    body {
        width: 100%;
        height: 100vh;
        /* overflow: hidden;
        flex-wrap: wrap; */
    }
+   .header {
+       width: 100%;
+       height: 10vh;
+       display: grid;
+       background-color: var(--clr-One);
+   }
+   .nav {
+   align-self: center;
+   display: grid;
+   /* grid-template-columns: repeat(3, 1fr); */
+   grid-template-columns: 40% 50% 10%;
+   grid-template-rows: max-content;
+   gap: .5rem;
+
+   grid-template-areas: "logo lista perfil";
+
+   margin: 0 1rem;
+   padding: .5rem;
+   }
+   .nav .nav--title {
+       grid-area: logo;
+       color: var(--clr-Two);
+       align-self: center;
+       font-size: var(--fonts-sizes-sans-large);
+       font-weight: bold;
+       justify-self: center;
+   }
+   .nav--list {
+       grid-area: lista;
+       display: flex;
+       justify-content: space-between;
+       align-items: center
+   }
+   .nav--list a {
+    color: var(--clr-Two);
+    font-size: var(--font-sizes-sans-small);
+   }
+   .nav--list a:hover {
+      opacity: .5;
+   }
+   .nav .nav--perfil {
+    align-self: center;
+    justify-self: center;
+    background-color: var(--clr-Two);
+    border-radius: 1rem;
+   }
+   .nav--perfil img {
+       width: auto;
+       height: auto;
+       object-fit: cover;
+   }
+
+   /*Main*/
+   .container {
+       width: 100%;
+       height: 90vh;
+
+       display: grid;
+     /*   grid-template-columns: max-content; */
+   /*   grid-template-columns: 1fr; */
+   grid-template-columns: 100%;
+       grid-template-rows: repeat(2, 1fr);
+       gap: 1rem;
+
+       grid-template-areas: "screens"
+                            "carousel";
+       
+   }
+
+   .movie--screen {
+       grid-area: screens;
+       width: 100%;
+       /* height: auto; */
+       min-height: 40.62rem;
+
+       background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../assets/images/jakob-owens-ycExgCMRggc-unsplash.jpg);
+       background-position: center center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       display: flex;
+       align-items: center;
+       font-size: 1.6rem;
+       margin-bottom: 3.12rem;
+       color: var(--clr-Two);
+   }
+   
+   .movie--screen .movie {
+       margin: 0 auto;
+       margin-bottom: 1rem;
+   }
+
+   .movie--carousel {
+       grid-area: carousel;
+   }
+
+   /*Movie Container*/
+

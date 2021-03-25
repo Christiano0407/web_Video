@@ -128,10 +128,40 @@
    }
    
    .movie--screen .movie {
-       margin: 0 auto;
-       margin-bottom: 1rem;
+    /*    margin: 0 auto; */
+       margin: 0 0 1rem 2rem ;
+       width: 70%;
    }
+   .movie .movie--title {
+       font-weight: 600;
+       font-size: 3.12rem;
+       margin-bottom: 0.4rem;
+   }
+   .movie--description {
+       font-weight: normal;
+       font-size: 1rem;
+   }
+   .movie .buttons {
+       background: var(--clr-One);
+       border: none;
+       border-radius: .5rem;
+       padding: 1rem 1rem;
+       margin-right: 1.25rem;
+       cursor: pointer;
+       font-size: 1.2rem;
+       color: var(--clr-Two);
+       margin-top: 2rem;
 
+       transition: 3s ease all;
+   }
+   .movie .buttons i {
+       margin-right: 1rem;
+   }
+   .movie .buttons:hover {
+       background: var(--clr-Two);
+       color: var(--clr-One);
+   }
+   /* Carousel*/
    .movie--carousel {
        grid-area: carousel;
    }

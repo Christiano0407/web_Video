@@ -166,5 +166,32 @@
        grid-area: carousel;
    }
 
-   /*Movie Container*/
+   .carousel__container {
+    position: relative;
+   }
+   .carousel__before, .carousel__after {
+    position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #fff;
+	opacity: 20%;
+   }
+   .carousel__before:hover, 
+   .carousel__after:hover {
+       opacity: 100%;
+   }
+   .carousel__before {
+       left: -30px;
+   }
+
+   .carousel__list {
+       overflow: hidden;
+   }
 

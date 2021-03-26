@@ -30,22 +30,23 @@ function updateSlidePosition() {
 }
 
 function moveToNextSlide () {
-	updateSlidePosition();
-
-	if(slidePosition === totalSlides -1) {
+	
+    if(slidePosition === totalSlides -1 ) {
 		slidePosition = 0;
 	}else {
 		slidePosition++;
 	}
+	updateSlidePosition();
 }
 
 function moveToPrevSlide () {
-	updateSlidePosition();
-
-if(slidePosition === 0) {
-	slidePosition = 0;
-}else {
+   
+  if(slidePosition === 0) {
+	slidePosition = totalSlides -1;
+ }else {
 	slidePosition--;
-}
+ }
+
+ updateSlidePosition();
 }
 

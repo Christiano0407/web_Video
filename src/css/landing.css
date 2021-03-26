@@ -169,6 +169,7 @@
     overflow: hidden;
     max-width: 600px;
     position: relative;
+    height: 250px;
   }
   
   .carousel .carousel__item,
@@ -179,16 +180,30 @@
   .carousel .carousel__item img {
     width: 100%;
     max-width: 600px;
-    height: auto;
+    /* height: auto; */
+    height: 200px;
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
   }
   
   .carousel .carousel__item--visible {
     display: block;
     animation: fadeVisibility 0.5s;
+  }
+  @keyframes fadeVisibility {
+   0% {
+   opacity: 0;
+   }
+   100% {
+   opacity: 1;
+   transform: opacity linear;
+   }
   }
   
   .carousel .carousel__actions {
@@ -210,9 +225,11 @@
   }
   
   .carousel .carousel__actions button#carousel__button--prev {
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin-left: 40px;
   }
   
   .carousel .carousel__actions button#carousel__button--next {
-    margin-right: 20px;
+   /*  margin-right: 20px; */
+   margin-right: 40px;
   }

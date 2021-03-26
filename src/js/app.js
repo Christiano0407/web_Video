@@ -50,3 +50,4 @@ function moveToPrevSlide () {
  updateSlidePosition();
 }
 
+/*Two Carousel*/

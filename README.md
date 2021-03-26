@@ -67,4 +67,10 @@ Web Video is a platform for seeing digital content.
 - Tipografía.
 - Visual (Efectos y otros).
 
+## Carousel-Library:
+[GliderJs](https://nickpiscitelli.github.io/Glider.js/)
+[SwiperJs](https://swiperjs.com/get-started)
+[Tutorial](https://www.youtube.com/watch?v=4oyj_smPAjc)
+[carousel-vanilla](https://www.youtube.com/channel/UC1DUQiZduv_yNZy0O7n_iHA)
+[FalconMaster](https://www.youtube.com/user/FalconMasters)
 

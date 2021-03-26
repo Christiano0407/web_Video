@@ -8,17 +8,29 @@
   .nav .nav--title {
 
   }
+  .carousel {
+    justify-self: center;
+  }
 }
 @media (min-width: 576px){
-    
+    .carousel {
+      justify-self: center
+    };
 
 }
 
 
 @media (min-width: 768px) {
-
+     .carousel {
+       justify-self: center;
+     }
 }
 
 @media (min-width:1024px) {
-    
+    .movie--screen .movie {
+      width: 50%;
+    }
+    .carousel {
+      justify-self: center;
+    }
 }

@@ -97,17 +97,19 @@
    /*Main*/
    .container {
        width: 100%;
-       height: 90vh;
+      /*  height: 90vh; */
+      height: auto;
 
        display: grid;
      /*   grid-template-columns: max-content; */
    /*   grid-template-columns: 1fr; */
    grid-template-columns: 100%;
-       grid-template-rows: repeat(2, 1fr);
+       grid-template-rows: repeat(3, 1fr);
        gap: 1rem;
 
        grid-template-areas: "screens"
-                            "carousel";
+                            "carousel"
+                            "slider";
        
    }
 
@@ -131,7 +133,8 @@
    .movie--screen .movie {
     /*    margin: 0 auto; */
        margin: 0 0 1rem 2rem ;
-       width: 70%;
+      /*  width: 70%; */
+      width: 50%;
    }
    .movie .movie--title {
        font-weight: 600;
@@ -176,7 +179,9 @@
   .carousel .carousel__item--hidden {
     display: none;
   }
-  
+  .carousel__item {
+
+  }
   .carousel .carousel__item img {
     width: 100%;
     max-width: 600px;
@@ -232,4 +237,20 @@
   .carousel .carousel__actions button#carousel__button--next {
    /*  margin-right: 20px; */
    margin-right: 40px;
+  }
+
+  /*slider*/
+  .slider {
+      grid-area: slider;
+      width: 100%;
+      height: auto;
+      display: grid;
+  }
+
+  .slider__container {
+   display: grid;
+   width: 100%;
+   height: 250px;
+   align-self: center;
+   background-color: var(--clr-Two);
   }

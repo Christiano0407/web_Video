@@ -20,10 +20,18 @@ document.getElementById(`carousel__button--prev`)
 });
   
     /*Actions and conditionals*/
-function updateSlidePosition()
+function updateSlidePosition() {
+	for(let slide of slides) {
+		slide.classList.remove(`carousel__item--visible`);
+		slide.classList.add(`carousel__item--hidden`);
+	}
+
+	slides[slidePosition].classList.add(`carousel__item--visible`);
+}
 
 function moveToNextSlide () {
-	/* console.log("Next"); */
+	updateSlidePosition();
+
 	if(slidePosition === totalSlides -1) {
 		slidePosition = 0;
 	}else {
@@ -32,11 +40,12 @@ function moveToNextSlide () {
 }
 
 function moveToPrevSlide () {
-/* 	console.log("Previous"); */
+	updateSlidePosition();
+
 if(slidePosition === 0) {
 	slidePosition = 0;
 }else {
-	slidePosition++;
+	slidePosition--;
 }
 }
 

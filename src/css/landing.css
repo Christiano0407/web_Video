@@ -104,7 +104,8 @@
      /*   grid-template-columns: max-content; */
    /*   grid-template-columns: 1fr; */
    grid-template-columns: 100%;
-       grid-template-rows: repeat(3, 1fr);
+      /*  grid-template-rows: repeat(3, 1fr); */
+      grid-template-rows: 450px 350px 350px;
        gap: 1rem;
 
        grid-template-areas: "screens"
@@ -173,6 +174,7 @@
     max-width: 600px;
     position: relative;
     height: 250px;
+    align-self: center;
   }
   
   .carousel .carousel__item,
@@ -245,6 +247,7 @@
       width: 100%;
       height: auto;
      /*  display: grid; */
+     align-self: center;
   }
 
   .slider__container {

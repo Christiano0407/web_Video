@@ -422,7 +422,7 @@ opacity: .3;
    align-items: flex-end;
  }
  .item__titles h1 {
-  color: #ffffff;
+  color: var(--clr-Two);
   font-size: 1.8rem;
   margin-left: 1rem;
   font-weight: bold;
@@ -439,7 +439,10 @@ opacity: .3;
  }
  .item__icons i {
    font-size: 2.5rem;
-   color: #ffffff;
+   color: var(--clr-Two);
+ }
+ .item__icons i:hover {
+   opacity: .5;
  }
  .parallax__carousel--item:nth-of-type(3) {
   background-image: url(../assets/images/jakob-owens-0Xl9HAf0RyE-unsplash.jpg);

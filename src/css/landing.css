@@ -105,12 +105,13 @@
    /*   grid-template-columns: 1fr; */
    grid-template-columns: 100%;
       /*  grid-template-rows: repeat(3, 1fr); */
-      grid-template-rows: 450px 350px 350px;
+      grid-template-rows: 450px 350px 350px 350px;
        gap: 1rem;
 
        grid-template-areas: "screens"
                             "carousel"
-                            "slider";
+                            "slider"
+                            "parallax";
        
    }
 
@@ -330,3 +331,32 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .swiper-button-prev {
+   color: #ffffff;
+  }
+  .swiper-button-prev:hover {
+      opacity: .5;
+  }
+  .swiper-button-next {
+      color: #ffffff;
+  }
+  .swiper-button-next:hover {
+      opacity: .5;
+  }
+
+  /*parallax*/
+  .parallax {
+      grid-area: parallax;
+      width: 100%;
+      height: 350px;
+      align-self: center;
+      background-color: beige;
+  }
+
+ .swiper-parallax {
+    width: 100%;
+   /*  height: 100%; */
+   height: 350px;
+   align-self: center;
+ }
+ 

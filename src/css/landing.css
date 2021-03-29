@@ -356,7 +356,7 @@
 
  .parallax__container {
      width: 100%;
-     height: 350px;
+    /*  height: 350px; */
      overflow: scroll;
      padding: 1rem;
      position: relative;
@@ -402,3 +402,81 @@ opacity: .3;
      background-position: center;
      background-repeat: no-repeat;
  }
+ .item__description {
+   width: 100%;
+   height: 100%;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(3, 1fr);
+   gap: .2rem;
+
+   grid-template-areas: "nothing"
+                        "title"
+                        "icons";
+  
+ }
+ .item__description .item__titles {
+   grid-area: title;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-end;
+ }
+ .item__titles h1 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  font-weight: bold;
+ }
+ .item__description .item__icons {
+   grid-area: icons;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+ }
+ .item__icons a {
+  margin-left: 1rem;
+  margin-right: 2rem;
+ }
+ .item__icons i {
+   font-size: 2.5rem;
+   color: #ffffff;
+ }
+ .parallax__carousel--item:nth-of-type(3) {
+  background-image: url(../assets/images/jakob-owens-0Xl9HAf0RyE-unsplash.jpg);
+/*   object-fit: cover; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.parallax__carousel--item:nth-of-type(4) {
+  background-image: url(../assets/images/mobile/image-grid.jpg);
+/*   object-fit: cover; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.parallax__carousel--item:nth-of-type(5) {
+  background-image: url(../assets/images/mobile/image-from-above.jpg);
+/*   object-fit: cover; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.parallax__carousel--item:nth-of-type(6) {
+  background-image: url(../assets/images/mobile/image-deep-earth.jpg);
+/*   object-fit: cover; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.footer {
+  width: 100%;
+  height: 20vh;
+  background-color: var(--clr-One);
+  margin-top: 6rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}

@@ -1,12 +1,15 @@
 @media (min-width: 425px) {
-  .header {
-
-  }
   .nav {
-
+  display: grid;
+  grid-template-columns: 30% 60% 10%;
+  grid-template-rows: 1fr;
+  gap: .2rem;
   }
   .nav .nav--title {
-
+   font-size: 1.2rem;
+  }
+  .nav .nav--list {
+    font-size: 1rem;
   }
   .carousel {
     justify-self: center;

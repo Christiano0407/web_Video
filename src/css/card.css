@@ -56,9 +56,11 @@ h2 {
 }
 h3 {
     font-size: 1.1rem;
+    color: var(--white);
 }
 p {
     margin-top: 0;
+    color: var(--ltgray);
 }
 
 .price {
@@ -66,4 +68,77 @@ p {
     overflow: hidden;
     border-radius: 0.5rem;
     margin: auto
+}
+.price > * {
+    padding: var(--paddingX) var(--paddingY);
+}
+.community {
+    background-color: var(--white);
+}
+.community h2 {
+    color: var(--cyan);
+}
+.community .substitle {
+    font-size: 1rem;
+    color: var(--yellow);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.community p {
+    font-size: 0.85rem;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+    color: var(--grayblue);
+}
+
+.suscription {
+    background-color: var(--cyan);
+}
+.suscription .why {
+    color: var(--ltgray);
+}
+.subscription__price {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    color: var(--white);
+}
+.subscription__price span {
+    font-size: 1rem;
+    margin-left: 0.8rem;
+    font-weight: normal;
+    opacity: 0.75;
+    color: var(--dkyellow);
+}
+.suscription p {
+    font-size: 0.9rem;
+    margin-bottom: 1.75rem;
+}
+.suscription a {
+    color: var(--white);
+    display: block;
+    background-color: var(--yellow);
+    padding: 0.75rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.15);
+    transition: background-color 200ms ease;
+}
+.suscription a:hover {
+    background-color: var(--dkyellow);
+}
+.why {
+    background-color: var(--ltcyan);
+}
+.why ul {
+    margin-top: 0;
+    padding: 0;
+}
+.why ul li {
+    list-style: none;
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+    color: var(--white);
 }

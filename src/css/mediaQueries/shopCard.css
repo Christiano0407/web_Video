@@ -1,22 +1,52 @@
-@media only screen and (min-width: 1024px) {
+:root {
+    --clr-base:#ffffff; 
+    --clr-background:#000000; 
+    --clr-primario: #F22233;
+    --clr-secondary: #F23D5E;
+    --clr-complementario: #F2A172;
+    --clr-comTwo: #591202; 
+    --clr-back: #A60303; 
+  
+    --paddingX: 1.8rem;
+    --paddingY: 1.5rem;
+  
+    --font-size-smolle: 1.2rem; 
+    --font-size-medium: 1.6rem; 
+    --font-size-title: 2.4rem; 
+  }
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  html {
+   font-size: 62.5%;
+   scroll-behavior: smooth;
+  }
+  body {
+      font-family: 'Karla', sans-serif;
+  }
+  ul {
+      list-style: none; 
+  }
+  a {
+      text-decoration: none;
+  }
+/* @media only screen and (min-width: 1024px) {
     .nav {
         
     }
 }
 
-@media only screen and (min-width: 768px) {
-    .nav {
-       
-    }
-}
+ @media (min-width: 768px) {
+  
+} 
 
 @media only screen and (min-width: 536px) {
     .header {
 
     }
-    .nav {
-
-    }
+    
 }
 
 @media only screen and (min-width: 450px) {
@@ -26,11 +56,18 @@
     .nav {
 
     }
-}
+   
+} */
+
+/* @media handheld and (grid) and (max-width: 600px)  { }  */
 
 /*MAX*/
-@media only screen and (max-width: 600px) {
+/* @media (max-width: 758px) {
 
+}
+ */
+/* @media (max-width: 600px) {
+  
 }
 
 @media only screen and (max-width: 425px) {
@@ -40,4 +77,5 @@
   .nav {
 
   }
-}
+
+} */

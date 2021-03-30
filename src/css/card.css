@@ -44,3 +44,26 @@ img {
     background-position: center;
     object-fit: cover;
 }
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-top: 0;
+    line-height: 1.15;
+}
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+h3 {
+    font-size: 1.1rem;
+}
+p {
+    margin-top: 0;
+}
+
+.price {
+    max-width: 40rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin: auto
+}

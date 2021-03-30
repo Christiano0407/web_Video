@@ -1,0 +1,46 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+  --cyan: hsl(179, 62%, 40%);
+  --ltcyan: hsl(179, 62%, 45%);
+  --yellow: hsl(71, 73%, 54%);
+  --dkyellow: hsl(71, 73%, 48%);
+  --ltgray: hsl(204, 43%, 93%);
+  --grayblue: hsl(218, 22%, 67%);
+
+  --paddingX: 1.8rem;
+  --paddingY: 1.5rem;
+
+  --font-size-smolle: 1.2rem; 
+  --font-size-medium: 1.6rem; 
+  --font-size-title: 2.4rem; 
+}
+*, * ::before, *::after {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: 'Karla', sans-serif;
+    line-height: 1.3;
+    background-color: var(--ltgray);
+    color: var(--grayblue);
+    padding: var(--paddingX);
+}
+ul {
+ list-style: none;
+ padding: 0;
+}
+a{
+ text-decoration: none;
+}
+img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}

@@ -1,0 +1,101 @@
+:root {
+    --clr-base:#ffffff; 
+    --clr-background:#000000; 
+    --clr-primario: #F22233;
+    --clr-secondary: #F23D5E;
+    --clr-complementario: #F2A172;
+    --clr-comTwo: #591202; 
+    --clr-back: #A60303; 
+  
+    --paddingX: 1.8rem;
+    --paddingY: 1.5rem;
+  
+    --font-size-smolle: 1.2rem; 
+    --font-size-medium: 1.6rem; 
+    --font-size-title: 2.4rem; 
+  }
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  html {
+   font-size: 62.5%;
+   
+  }
+  body {
+      font-family: 'Karla', sans-serif;
+     /*  width: 100%;
+      height: 100%; */
+  }
+  ul {
+      list-style: none; 
+      padding: 0;
+  }
+  a {
+      text-decoration: none;
+  }
+
+  .wrapper {
+      width: 100%;
+      height: 50vh;
+      display: grid;
+      gap: 2rem;
+      grid-template-areas: "header"
+                           "nav"
+                           "content"
+                           "sidebar"
+                           "ad"
+                           "footer";
+  }
+  .main-head {
+   grid-area: header;
+  }
+  .content {
+   grid-area: content;
+  }
+  .main-nav {
+   grid-area: nav;
+  }
+  .side {
+   grid-area: sidebar;
+  }
+  .ad {
+  grid-area: ad;
+  }
+  .main-footer {
+  grid-area: footer;
+  }
+   
+     /* MEDIAQUERIES */
+
+  @media (min-width: 556px) {
+    .wrapper {
+        background-color: lightgray;
+        grid-template-columns:1fr 1fr;
+        grid-template-areas: "header header"
+                             "nav    nav"
+                             "sidebar content"
+                             "ad     footer";
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    }
+  
+    @media (min-width: 768px) {
+     .wrapper {
+         background-color: lightpink;
+         grid-template-columns: 1fr 4fr 1fr;
+         grid-template-areas: "header header header"
+                              "nav    content sidebar"
+                              "nav    content ad"
+                              "footer footer footer";
+  
+     }
+     nav ul {
+         flex-direction: column;
+     }
+  
+    }

@@ -1,0 +1,76 @@
+:root {
+    --clr-base:#ffffff; 
+    --clr-background:#000000; 
+    --clr-primario: #F22233;
+    --clr-secondary: #F23D5E;
+    --clr-complementario: #F2A172;
+    --clr-comTwo: #591202; 
+    --clr-back: #A60303; 
+  
+    --paddingX: 1.8rem;
+    --paddingY: 1.5rem;
+  
+    --font-size-smolle: 1.2rem; 
+    --font-size-medium: 1.6rem; 
+    --font-size-title: 2.4rem; 
+  }
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  html {
+   font-size: 62.5%;
+   scroll-behavior: smooth;
+  }
+  body {
+      font-family: 'Karla', sans-serif;
+     /*  width: 100%;
+      height: 100%; */
+  }
+  ul {
+      list-style: none; 
+  }
+  a {
+      text-decoration: none;
+  }
+/*      Min */
+@media screen and (min-width: 456px) {
+
+}
+
+    /*    Max */
+    @media screen and (max-width: 768px) {
+        .line {
+            width: 30px;
+            height: 3px;
+            margin: 5px;
+            background: var(--clr-base);
+        }
+        .nav {
+         position: relative;
+         /* display: none; */
+        }
+        .nav__hamburger {
+            position: absolute;
+            z-index: 2;
+            cursor: pointer;
+        }
+        .nav__link {
+            position: fixed;
+            background-color: var(--clr-primario);
+            height: 100%;
+            width: 100%;
+            flex-direction: column;
+            clip-path: circle(100px at 90% -10);
+            -webkit-clip-path: circle(100px at 90% -10);
+            transition: all 1s ease-out;
+         }
+         .nav__link.open {
+            clip-path: circle(100px at 90% -10);
+            -webkit-clip-path: circle(100px at 90% -10);
+         }
+         
+         
+     }
+

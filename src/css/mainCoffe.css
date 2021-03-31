@@ -1,0 +1,44 @@
+:root {
+    --clr-base:#ffffff; 
+    --clr-background:#000000; 
+    --clr-primario: #F22233;
+    --clr-secondary: #F23D5E;
+    --clr-complementario: #F2A172;
+    --clr-comTwo: #591202; 
+    --clr-back: #A60303; 
+  
+    --paddingX: 1.8rem;
+    --paddingY: 1.5rem;
+  
+    --font-size-smolle: 1.2rem; 
+    --font-size-medium: 1.6rem; 
+    --font-size-title: 2.4rem; 
+  }
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  html {
+   font-size: 62.5%;
+   scroll-behavior: smooth;
+  }
+  body {
+      font-family: 'Karla', sans-serif;
+  }
+  ul {
+      list-style: none; 
+  }
+  a {
+      text-decoration: none;
+  }
+  .header {
+      width: 100%;
+      height: 10vh;
+      background-color: var(--clr-primario);
+  }
+  .nav {
+      width: 100%;
+      height: 100%;
+      display: grid;
+  }

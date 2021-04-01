@@ -1,3 +1,21 @@
+:root {
+    --clr-white: #ffffff;
+    --clr-black: #000000; 
+
+    --clr-base:#223240; 
+    --clr-secundario:#73614C; 
+    --clr-complementario:#F2CAB3;
+    --clr-Four:#8C442A; 
+    --clr-Five:#D9AB9A; 
+    
+    --paddingX: 1.8rem;
+    --paddingY: 1.5rem;
+
+    --font-size-small: 1.2rem; 
+    --font-size-medium: 1.6rem; 
+    --font-size-tall: 1.8rem; 
+    --font-size-title: 2.4rem; 
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,11 +30,22 @@ body {
     height: 100%; */
 }
 
-
+a {
+text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
 
     /*Media*/
 @media (min-width: 1024px) {
-    
+
 }
 
 @media (max-width: 360px) {

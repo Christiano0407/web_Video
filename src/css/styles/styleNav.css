@@ -42,10 +42,46 @@ img {
     background-position: center;
     object-fit: cover;
 }
+.wrapper {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-areas: "header"
+                         "content"
+                         "footer";
+
+    background-color: var(--clr-white);
+}
+.header {
+    grid-area: header;
+    width: 100%;
+    height: 10vh;
+    background-color: var(--clr-base);
+}
+.nav {
+    display: grid;
+}
+.medium {
+ display: grid;
+ width: 100%;
+ height: 80vh;
+ background-color: lightgray;
+}
+
+.footer {
+    display: grid;
+    height: 15vh;
+    width: 100%;
+    background-color: var(--clr-base);
+}
 
     /*Media*/
 @media (min-width: 1024px) {
 
+}
+@media (min-width: 456px) {
+    /*Hamburger*/
 }
 
 @media (max-width: 360px) {

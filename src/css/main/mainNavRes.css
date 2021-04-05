@@ -78,6 +78,29 @@ a {
  color: var(--clr-primary);
  transition: all 0.2s ease-out;
 }
+.nav-links_btn {
+ background-color: var(--clr-three);
+ padding: 6px 16px;
+ border-radius: 4px;
+}
+.nav-links_btn:hover {
+    background-color: transparent;
+    color: var(--clr-white);
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: solid 1px var(--clr-three);
+    transition: all 0.3s ease-out;
+}
+/* ===MenuHamburger=== */
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--clr-white);
+}
+
+
     /*====MediaQueries====*/
 
     @media only screen and (min-width:768px) {

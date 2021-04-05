@@ -1,0 +1,38 @@
+/*=== Variables=== */
+:root {
+    --clr-white: #ffffff; 
+    --clr-black: #000000; 
+    --clr-primary: #9B49A6; 
+    --clr-secondary: #392973; 
+    --clr-three: #8ABFBA;
+    --clr-complementary: #275934; 
+    --clr-complTwo: #F2C335; 
+
+    --normal-font-size: 1.5rem;
+    --small-font-size: 1.2rem; 
+    --little-small-size: 1rem; 
+    --big-font-size: 2.4rem; 
+
+    
+    --paddingX: 1.8rem;
+    --paddingY: 1.5rem;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Karla', sans-serif;
+}
+body {
+    /*  width: 100%;
+      height: 100%; */
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}

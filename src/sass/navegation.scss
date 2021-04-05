@@ -1,0 +1,37 @@
+/*== Variables== */
+:root {
+    --header-height: 3rem
+
+    --clr-first:#3664F4; 
+    --clr-dark:#000000;
+    --clr-dark-alt:#28283A; 
+    --clr-white: #ffffff; 
+
+
+    --body-font:   font-family: 'Karla', sans-serif;
+    --normal-font-size: 1.5rem;
+    --small-font-size: 1.2rem; 
+    --little-small-size: 1rem; 
+    --big-font-size: 2.4rem; 
+    
+    --z-fixed: 100; 
+}
+:root {
+    @media screen and (min-width: 768px) {
+    --normal-font-size: 1.6rem;
+    --small-font-size: 1.2rem; 
+    }
+}
+*,::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+ font-weight: 500;
+}

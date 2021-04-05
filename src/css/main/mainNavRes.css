@@ -2,11 +2,11 @@
 :root {
     --clr-white: #ffffff; 
     --clr-black: #000000; 
-    --clr-primary: #9B49A6; 
-    --clr-secondary: #392973; 
-    --clr-three: #8ABFBA;
-    --clr-complementary: #275934; 
-    --clr-complTwo: #F2C335; 
+    --clr-primary: #B527F2; 
+    --clr-secondary: #010A26; 
+    --clr-three: #63F2E4;
+    --clr-complementary: #F2E85C; 
+    --clr-complTwo: #8C3A1C; 
 
     --normal-font-size: 1.5rem;
     --small-font-size: 1.2rem; 
@@ -37,6 +37,47 @@ a {
     text-decoration: none;
 }
 
+.header-container {
+    width: 100%;
+    background-color: var(--clr-black);
+}
+.navBar {
+    display: grid;
+    grid-template-columns: 0.2fr auto 1fr;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+    max-width: 1728px;
+    margin: 0 auto;
+}
+#navBar-logo {
+ color: var(--clr-white);
+ justify-self: start;
+ margin-left: 2rem;
+ font-size: var(--normal-font-size);
+ font-weight: bold;
+}
+#navBar-logo {
+    cursor: pointer;
+}
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    justify-self: end;
+}
+.nav-links {
+    color: var(--clr-white);
+    font-size: var(--small-font-size);
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-links:hover {
+ color: var(--clr-primary);
+ transition: all 0.2s ease-out;
+}
     /*====MediaQueries====*/
 
     @media only screen and (min-width:768px) {

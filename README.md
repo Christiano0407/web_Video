@@ -85,3 +85,7 @@ Web Video is a platform for seeing digital content.
 [Brian Design](https://www.youtube.com/watch?v=yFWAOzwovrQ&t=53s)
 [Adrian Twarog](https://www.youtube.com/watch?v=9_PKSx9tp7k&t=166s)
 [Dev Ed](https://www.youtube.com/watch?v=H4MkGzoACpQ&t=1125s)
+
+## Scroll Animation
+[Brian Design](https://www.youtube.com/watch?v=LmsRtJFxJ3g&t=31s)
+[GSAP](https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger#CDN)
